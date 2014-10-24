@@ -2,9 +2,38 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>Cadastro na disciplina</title>
 </head>
 <body>
-
+    <h3>Insira os dados pedidos para efetuar o cadastro na disciplina</h3>
+    <form >
+        Nome <input type="text" name="nome" size="50" maxlength="100">
+        </br>
+        E-mail <input type="text" name="email" size="50" maxlength="100">
+        </br>
+        Cidade <input type="text" name="cidade" size="50" maxlength="60">
+        </br>
+        Sexo
+        </br>
+        <input type="radio" name="sexo" value="Masculino" checked> Homem
+        </br>
+        <input type="radio" name="sexo" value="Feminino"> Mulher
+        </br>
+        </br>
+        Motivo da inscrição
+        <br>
+        <select name="motivo">
+            <option value="1">Gostei da disciplina
+            <option value="2">Um amigo em indicou
+            <option value="3">Fui obrigado
+            <option value="4">outros
+        </select>
+        </br>
+        </br>
+        <a href="telaAgradecimento.html"><input type="button" value="cadastre-se"></a>
+        </br>
+        </br>
+        <input type="Reset" value="Apagar tudo">
+    </form>
 </body>
 </html>
