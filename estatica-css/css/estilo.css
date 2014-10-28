@@ -1,0 +1,16 @@
+/* adição de uma imagem como background do titulo */
+#titulo {
+    background: url(../img/titulo-background.jpg);
+    text-align: center;
+}
+
+body {
+    color: #003366;;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* centralização da pagina */
+body {
+    margin: 0 auto;
+    width: 940px;
+}
