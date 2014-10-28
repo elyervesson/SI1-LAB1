@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/estilo.css" rel="stylesheet">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="hero-unit">
+        <h1>Cadastro</h1>
+        <p>Insira os dados para se cadastrar</p>
+    </div>
+
+    <form class="form-horizontal">
+        <fieldset>
+            <!-- Text input-->
+            <div class="control-group">
+                <label class="control-label">Nome</label>
+                <div class="controls">
+                    <input id="nome" name="nome" type="text" placeholder="Insira seu nome" class="input-xlarge" required>
+                    <p class="help-block">* Campo Obrigatório</p>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="control-group">
+                <label class="control-label">Matricula</label>
+                <div class="controls">
+                    <input id="matricula" name="matricula" type="text" placeholder="Insira sua matricula" class="input-xlarge" required>
+                    <p class="help-block">* Campo Obrigatório</p>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="control-group">
+                <label class="control-label">Matricula</label>
+                <div class="controls">
+                    <input id="email" name="email" type="text" placeholder="Insira seu email" class="input-xlarge" required>
+                    <p class="help-block">* Campo Obrigatório</p>
+                </div>
+            </div>
+
+            <!-- Multiple Radios -->
+            <div class="control-group">
+                <label class="control-label">Sexo</label>
+                <div class="controls">
+                    <label class="radio">
+                        <input type="radio" name="sexo" value="Masculino" checked="checked">
+                        Masculino
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="sexo" value="Feminino">
+                        Feminino
+                    </label>
+                </div>
+            </div>
+
+            <!-- Select Basic -->
+            <div class="control-group">
+                <label class="control-label">Motivo da inscrição:</label>
+                <div class="controls">
+                    <select id="motivo" name="motivo" class="input-xlarge">
+                        <option>Gostei da apresentação da disciplina</option>
+                        <option>Um amigo me indicou</option>
+                        <option>Estou sendo obrigado</option>
+                        <option>Outros motivos</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div class="control-group">
+                <label class="control-label"></label>
+                <div class="controls">
+                    <button id="cadastrar" name="cadastrar" class="btn btn-primary" formaction="agradecimento.html">Cadastrar</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>
